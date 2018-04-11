@@ -77,11 +77,11 @@ VideoPlayer.prototype.init = function() {
     var self = this;
     var video = self.video;
     this.fetchData('data.json', function callback() {
-        $('.js-name').text("HELLO NISHCHAL");
-        $('.js-month').text("@ Interest Rate of 8.3% p.a.");
+        $('.js-name').text("HELLO NISCHAL");
+        $('.js-month').text("@ Interest Rate of 8.7% p.a.");
 
         $('#animate3 .animate3__line2').append(
-            "₹9,00,000"
+            "₹8,75,000"
         );
         $('#animate4 .animate4__line2').text(
             "₹12,394 p.m in Year 1"
@@ -93,7 +93,7 @@ VideoPlayer.prototype.init = function() {
             "₹18,684 p.m in Year 3"
         );
         $('#animate6').text(
-            "Hey Nishal, click here to avail your Pre-approved Auto Loan offer"
+            "Hey Nischal, click here to avail your Pre-approved Auto Loan offer"
         );
         // retargeting video element
         video = document.getElementsByClassName('vjs-tech')[0];
